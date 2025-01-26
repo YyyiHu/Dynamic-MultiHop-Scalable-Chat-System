@@ -1,0 +1,31 @@
+# Ignore compiled files
+*.class
+*.o
+*.out
+*.exe
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore dependencies and build folders
+node_modules/
+dist/
+build/
+venv/
+.env
+
+# Ignore IDE and editor configurations
+.vscode/
+.idea/
+*.iml
+
+# Ignore Git local configuration
+.git/
